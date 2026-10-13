@@ -22,7 +22,7 @@
 
 ### Требования
 
-- [Go 1.25+](https://go.dev/dl/)
+- [Go 1.26.9+](https://go.dev/dl/)
 - [Git](https://git-scm.com/)
 - [Make](https://www.gnu.org/software/make/)
 
@@ -92,7 +92,7 @@ docs(README): update configuration examples
 
 ### Заголовки лицензии
 
-Каждый исходный файл (`.go`, `.sh`, `.js`, `.mjs`, `.ts`, `.tsx`) должен содержать заголовок лицензии SPDX. После создания новых файлов выполните:
+Каждый исходный файл (`.go`, `.js`, `.mjs`, `.ts`, `.tsx`, `.kt`, `.kts`, `.sh`, `.py`, `.css`) должен содержать заголовок лицензии SPDX. После создания новых файлов выполните:
 
 ```bash
 make license-add

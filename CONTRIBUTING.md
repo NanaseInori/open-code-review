@@ -22,7 +22,7 @@ There are many ways to contribute beyond writing code:
 
 ### Prerequisites
 
-- [Go 1.25+](https://go.dev/dl/)
+- [Go 1.26.9+](https://go.dev/dl/)
 - [Git](https://git-scm.com/)
 - [Make](https://www.gnu.org/software/make/)
 
@@ -102,7 +102,7 @@ docs(README): update configuration examples
 
 ### License Headers
 
-Every source file (`.go`, `.sh`, `.js`, `.mjs`, `.ts`, `.tsx`) must include an SPDX license header. After creating new files, run:
+Every source file (`.go`, `.js`, `.mjs`, `.ts`, `.tsx`, `.kt`, `.kts`, `.sh`, `.py`, `.css`) must include an SPDX license header. After creating new files, run:
 
 ```bash
 make license-add

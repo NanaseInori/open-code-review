@@ -22,7 +22,7 @@ OpenCodeReview에 기여해 주셔서 감사합니다. 오타 수정, bug report
 
 ### 전제 조건
 
-- [Go 1.25+](https://go.dev/dl/)
+- [Go 1.26.9+](https://go.dev/dl/)
 - [Git](https://git-scm.com/)
 - [Make](https://www.gnu.org/software/make/)
 
@@ -92,7 +92,7 @@ docs(README): update configuration examples
 
 ### License Headers
 
-모든 소스 파일(`.go`, `.sh`, `.js`, `.mjs`, `.ts`, `.tsx`)에는 SPDX 라이선스 헤더가 필요합니다. 새 파일을 생성한 후 다음을 실행하세요:
+모든 소스 파일(`.go`, `.js`, `.mjs`, `.ts`, `.tsx`, `.kt`, `.kts`, `.sh`, `.py`, `.css`)에는 SPDX 라이선스 헤더가 필요합니다. 새 파일을 생성한 후 다음을 실행하세요:
 
 ```bash
 make license-add

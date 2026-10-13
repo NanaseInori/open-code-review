@@ -22,7 +22,7 @@ OpenCodeReviewへのコントリビューションに興味を持っていただ
 
 ### 前提条件
 
-- [Go 1.25+](https://go.dev/dl/)
+- [Go 1.26.9+](https://go.dev/dl/)
 - [Git](https://git-scm.com/)
 - [Make](https://www.gnu.org/software/make/)
 
@@ -92,7 +92,7 @@ docs(README): update configuration examples
 
 ### ライセンスヘッダー
 
-すべてのソースファイル（`.go`、`.sh`、`.js`、`.mjs`、`.ts`、`.tsx`）にはSPDXライセンスヘッダーが必要です。新しいファイルを作成した後、以下を実行してください：
+すべてのソースファイル（`.go`、`.js`、`.mjs`、`.ts`、`.tsx`、`.kt`、`.kts`、`.sh`、`.py`、`.css`）にはSPDXライセンスヘッダーが必要です。新しいファイルを作成した後、以下を実行してください：
 
 ```bash
 make license-add
