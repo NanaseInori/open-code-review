@@ -1189,6 +1189,7 @@ func NewAnthropicClient(cfg ClientConfig) *AnthropicClient {
 		// pass WithoutEnvironmentDefaults, so a long timeout_sec is capped at 10
 		// minutes on a slow endpoint without this (#1161).
 		option.WithHTTPClient(httpClientWithHeaderTimeout(cfg.Timeout)),
+		option.WithMiddleware(validateAnthropicSampling),
 	}
 
 	switch authHeader {
